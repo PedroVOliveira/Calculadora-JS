@@ -24,12 +24,12 @@ div.display{
     background:#BBD;
     margin:5px; 
 }
-div.botões{
+div.botoes{
     display:grid;
     grid-template-columns: repeat(4,1fr);
     grid-gap:10px;
 }
-.botão{
+.botao{
     font-family: 'Times New Roman', Times, serif;
     padding: 10px;
     font-size: 15px;
