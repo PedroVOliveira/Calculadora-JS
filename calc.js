@@ -1,4 +1,4 @@
-
+(function (){
 const inputElement= document.querySelector('input');
 const $buttons = document.querySelectorAll('[data-item="button"]');
 
@@ -23,6 +23,14 @@ $buttons.forEach(button =>{
 });
 
 //calcular
-$buttons[18].addEventListener('click',calcular);
-
-
+$buttons[19].addEventListener('click',calcular);
+//Funções a Adicionar
+//Botão mais e menos
+$buttons[16].addEventListener('click',()=>{
+    alert('Em breve...');
+})
+//Botão CE
+$buttons[1].addEventListener('click',()=>{
+    alert('Em breve...')
+});
+})();
